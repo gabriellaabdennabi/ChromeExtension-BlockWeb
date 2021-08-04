@@ -1,12 +1,13 @@
 {
-    "manifest-version":2,
+    "manifest_version":2,
     "name":"Block-Web",
     "version":"0.0.1",
-    "content-scripts":[
+    "content_scripts":[
     {
         "matches":["<all-urls>"],
         "js":["Content.js"]
     }
+
     ]
 
 }
