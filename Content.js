@@ -244,7 +244,6 @@ const generateHTML = (pageName) => {
         <div class="cloud x5"></div>
     </div>
     <div class='c'>
-        <div class='_404'>404</div>
         <hr>
         <div class='_1'>Your suppose to be </div>
         <div class='_2'>Working Not on ${pageName}</div>
@@ -258,21 +257,31 @@ switch(window.location.hostname){
        document.body.innerHTML = generateHTML("YOUTUBE");
 
     break;
-    case "wwww.netflix.com/*":
-        alert("Hey");
+    case "wwww.netflix.com":
+        
+        document.head.innerHTML = generateSTYLES();
+       document.body.innerHTML = generateHTML("NETFLIX");
+
     
     break;
-    case "www.facebook.com/*":
-        alert("Hey");
+    case "www.facebook.com":
+        
+        document.head.innerHTML = generateSTYLES();
+       document.body.innerHTML = generateHTML("FACEBOOK");
+
     
     break;
-    case "www.instagram.com/*":
-        alert("Hey");
+    case "www.instagram.com":
+       
+        document.head.innerHTML = generateSTYLES();
+       document.body.innerHTML = generateHTML("INSTAGRAM");
+
 
     break;
-    case "www.tiktok.com/*":
-        alert("Hey");
-    
+    case "www.tiktok.com":
+      
+        document.head.innerHTML = generateSTYLES();
+       document.body.innerHTML = generateHTML("TIKTOK");
     break;
 
 }
