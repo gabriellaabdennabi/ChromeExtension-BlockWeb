@@ -1,0 +1,11 @@
+{
+    "manifest_version":2,
+    "name": "Motion ",
+    "version": "1.0.0",
+    "description": "Productivity chrome extension",
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+
+
+}
