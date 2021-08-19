@@ -1,14 +1,14 @@
 
  $(document).ready(function(){
-     $("#add").on('click', function(){
-         var value =$("#todoList").val();
+     $("#submit_todo").on('click', function(){
+         var value =$("#todo__input").val();
          if(value!== ''){
              var element = $("<li></li>").text(value);
              var btn = $("<button class='rem'>X</button>");
-             $(elem).append(btn);
-             $('#todoList').append(elem);
-             $('#todoList').val("");
-             $
+             $(element).append(btn);
+             $('#todoList').append(element);
+             $('#todoList').val(" ");
+             
          }
 
 
