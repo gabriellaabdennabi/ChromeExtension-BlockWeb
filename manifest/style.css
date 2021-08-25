@@ -23,31 +23,49 @@ html{
 }
 
 
-#container{
-    background-color: rgba(0,0,0,0.6);
-    width: 50%;
-    height: 600px;
-    position: relative;
-    bottom: 50px;
-    right: 50px;
-    z-index:10;
+.container_timequote{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#time{
+    font-size:5em;
+    
+   
 
 }
 
+#quote{
+    font-size:2em;
+   
+}
+/*
 #container__music{
     width: 75%;
-    height: auto;
+    height: 100px;
+    float: left;
     min-height: 300px;
     max-width: 500px;
     min-width: 250px;
+    right: 0;
+    bottom: 100px;
     background: #f1f5f8;
     background-size: 25px 25px;
     border-radius: 20px;
     box-shadow: 4px 3px 7px 2px #00000040;
     padding: 1rem;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
     z-index: 10;
 
 }
@@ -102,13 +120,7 @@ html{
    
 }
 
-#time{
-    position: absolute;
-    bottom: 45%;
-    width: 100%;
-    text-align: center;
-    font-family: "Gochi Hand"
-}
+
 #filler{
     background: #41bd03;
     height: 0px;
@@ -155,13 +167,14 @@ html{
   min-height: 300px;
   max-width: 500px;
   min-width: 250px;
+  right: 20px;
   background: #f1f5f8;
   background-size: 25px 25px;
   border-radius: 20px;
   box-shadow: 4px 3px 7px 2px #00000040;
   padding: 1rem;
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
   z-index: 10;
   
 }
@@ -180,7 +193,7 @@ html{
   font-size: 1.5rem;
 
 }
-#input_submit{
+#input__submit{
     text-align: center;
 
 }
@@ -265,4 +278,6 @@ html{
     font-size: 20px;
 
 }
+
+*/
 

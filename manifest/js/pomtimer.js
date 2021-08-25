@@ -21,7 +21,10 @@ $(function(){
             this.interval = setInterval(function(){
                 self.intervalCallback.apply(self);
             },1000);
-            
+            $("work").on('click', function(){
+                self.startWork.apply(self);
+            });
+
         }
     }
 

@@ -15,12 +15,14 @@ $(function(){
 
      })
 
+
+
     
      })
 
 
      $("#todolist").on('click', function(){
-         $("#container__todo").fadeToggle();
+         $("#container__todo").slideToggle();
      })
 
 
